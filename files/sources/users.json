@@ -1,0 +1,48 @@
+{
+	"srcs":{
+
+		"name": [
+			"Vahag",
+			"Milad",
+			"Amirhesam",
+			"Kali",
+			"Mohammad",
+			"Satan",
+			"Eva-Marie",
+			"Alicia",
+			"Sarah"
+		],
+
+		"family": [
+			"Yeganov",
+			"Morovvat",
+			"Bahrami",
+			"Atabaki",
+			"Ibn-Validated",
+			"Goose",
+			"Von-Shiess",
+			"BloodyFace"
+		],
+
+		"email":{
+			"operateKeys":["name","family"],
+			"generatorFunc":"makeEmail",
+			"args":{"ending":"blackhand.nod"}
+		},
+
+		"phone":{
+			"generatorFunc":"genPhoneNum",
+			"args":{"precode":"0049","digitsNum":10}
+		},
+
+		"birth":{
+			"generatorFunc":"genRandBirth",
+			"args":{"min_year":1980,"max_year":2035}
+		},
+
+		"_pass":{
+			"operateKeys":["name","family"],
+			"generatorFunc":"makeNamePass"
+		}
+	}
+}

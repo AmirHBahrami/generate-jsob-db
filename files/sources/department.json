@@ -1,0 +1,23 @@
+{
+
+	"srcs":{
+
+		"employees":{
+			"generateDB":"users",
+			"options":{ "limit" :15 }
+		},
+
+		"name":{
+			"generatorFunc":"genDepName",
+			"args":{
+				"names":[
+					"IT",
+					"Electronics",
+					"Cohort",
+					"Immortals",
+					"Jahad-e-Nekah"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"srcs": {
+		"name": [
+			"Fieulla Doux",
+			"Jireich",
+			"Gider Branco",
+			"Emeur Classic",
+			"Cellina Adega",
+			"Clonaunuhr Rouge",
+			"Beslubeutel Granvas",
+			"Oqadrieu Clairet",
+			"Lonvunas",
+			"Zibrartin Viejo",
+			"Chelon Mousseux",
+			"Ueuchen Adamado",
+			"Trimur Adega",
+			"Tarre Secco",
+			"Fruge Dulce",
+			"Jesciegna Annata",
+			"Ghuxuege",
+			"Azaily Granvas",
+			"Authoureic",
+			"Trimblurnet Classic"
+		],
+		"category": [
+			"red",
+			"sparkling",
+			"white",
+			"sweet",
+			"dessert",
+			"riesling"
+		],
+		"origin": [
+			"France",
+			"Germany",
+			"England",
+			"Spain",
+			"Russia"
+		],
+		"pic_url":[
+			"alcohol.png",
+			"bordeaux.png",
+			"bottle.png",
+			"champagne.png",
+			"cocktail.png",
+			"glass.png",
+			"grapes.png",
+			"wine.jpg",
+			"wine1.jpg"
+		],
+		"price": {
+			"generatorFunc": "pickRandNum",
+			"args": {
+				"min": 20,
+				"max": 2000,
+				"isPrice": true
+			}
+		}
+	},
+
+	"options": {
+		"id_format": "ec10",
+		"id_start": 40
+	}
+}

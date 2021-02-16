@@ -1,0 +1,66 @@
+{
+	"srcs":{
+
+		"country":[
+			"France",
+			"Germany",
+			"England",
+			"Spain",
+			"Russia",
+			"Iran",
+			"Japan",
+			"United States",
+			"United Kingdoms",
+			"Turkey"
+		],
+
+		"state":[
+			"Central State",
+			"Western State",
+			"Southern State",
+			"Northern State",
+		],
+
+		"city":[
+			"Waterton",
+			"Dust",
+			"Rainforest",
+			"Thundra",
+			"Pole",
+			"Mountains",
+			"Heartland",
+			"Oldtown",
+			"Newcity",
+			"Shithole"
+		],
+
+		"street":{
+			"generatorFunc":"genRandStreet",
+			"args":{
+				"numbers":{"min":0,"max":51},
+				"names":[
+					"Fieulla Doux",
+					"Jireich",
+					"Gider Branco",
+					"Emeur Classic",
+					"Cellina Adega",
+					"Clonaunuhr Rouge",
+					"Beslubeutel Granvas",
+					"Oqadrieu Clairet",
+					"Lonvunas",
+					"Zibrartin Viejo",
+					"Chelon Mousseux",
+					"Ueuchen Adamado",
+					"Trimur Adega",
+					"Tarre Secco",
+					"Fruge Dulce",
+					"Jesciegna Annata",
+					"Ghuxuege",
+					"Azaily Granvas",
+					"Authoureic",
+					"Trimblurnet Classic"
+				]
+			}
+		}
+	}
+}

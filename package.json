@@ -1,0 +1,26 @@
+{
+  "name": "generate-json-db",
+  "version": "1.0.0",
+  "description": "Generate a json file with your own configurations and custom given fields. More details in documentations...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirHBahrami/generate-jsob-db.git"
+  },
+  "keywords": [
+    "json",
+    "custom",
+    "db",
+    "database",
+    "mock"
+  ],
+  "author": "Amirhesam Bahrami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirHBahrami/generate-jsob-db/issues"
+  },
+  "homepage": "https://github.com/AmirHBahrami/generate-jsob-db#readme"
+}

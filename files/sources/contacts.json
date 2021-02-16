@@ -1,0 +1,42 @@
+{
+	"srcs":{
+		"name": [
+			"Vahag",
+			"Milad",
+			"Amirhesam",
+			"Eva",
+			"Mohammad",
+			"Satan",
+			"Eva-Marie",
+			"Alicia",
+			"Sarah"
+		],
+		"family": [
+			"Yeganov",
+			"Morovvat",
+			"Bahrami",
+			"Atabaki",
+			"Ibn-Validated",
+			"Goose",
+			"Von-Shiess",
+			"Was-Auchimmer"
+		],
+		"personal":{
+			"generatorFunc":"genPhoneNum",
+			"args":{"precode":"0049","digitsNum":10}
+		},
+		"work":{
+			"generatorFunc":"genPhoneNum",
+			"args":{"precode":"0049","digitsNum":10}
+		},
+		"email":{
+			"operateKeys":["name","family"],
+			"generatorFunc":"makeEmail",
+			"args":{"ending":"gmail.com"}
+		},
+		"image": [
+			"avatar_male.png",
+			"avatar_female.png"
+		]
+	}
+}
