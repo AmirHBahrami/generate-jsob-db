@@ -22,12 +22,11 @@ will take care of it for you.
 2. "srcs" : srcs describes what fields each object has and what possible values each of those fileds can have. 
 take the following as an example:
 
-{
 	"srcs": {
+	
 		"country":["Germany","USA","Russia","Iran"],
 		"language":["German","English","Russian","Farsi"]
 	}
-}
 
 in this example, each object in the final json file, will have two fields, "country" and "language".
 The value of each is independant of the other field, and is random, for example an object with
@@ -67,7 +66,6 @@ simply have the args match whatever you want.
 
 To demonstrate the whole thing, here's an example:
 
-{
 	"srcs":{
 		"phoneNumber":{
 
@@ -75,7 +73,6 @@ To demonstrate the whole thing, here's an example:
 			"args":{"precode":"0049","digitsNum":1}
 		}
 	}
-}
 
 and then at src/util:
 
@@ -106,7 +103,6 @@ email has a general format, namely:
 in this case, you cannot simply let the program "guess" what the first and last names are, you 
 need to tell it that those fields are already produced, like this:
 
-{
 	"srcs":{
 		"email":{
 			"oprateKeys":["firstName","lastName"],
@@ -115,7 +111,6 @@ need to tell it that those fields are already produced, like this:
 			
 		}
 	}
-}
 
 now this way, the program knows that to produce the email field, it needs to pass the generatorFunc
 (once again, provided by your own hands!). It also passes the args, so it's quite fluid...
@@ -125,7 +120,7 @@ is concerned, please note that I am using a Object.keys() to detemine the keys o
 so (for now, at least!) you need to deal with as described.
 
 **********
-How to the program, now?!
+How to run the program, now?!
 
 You simply open your terminal, assuming you have the node.js, you go to the directory, where you've downloaded
 and unpacked this program, and type this command:
@@ -135,6 +130,7 @@ and unpacked this program, and type this command:
 and enjoy the scenery!
 
 Now if you don't want to provide a path, there are default options:
+	
 	source path = "./files/sources/source.json"
 	result file = "./files/results/result.json"
 	number = 20
